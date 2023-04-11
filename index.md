@@ -1,13 +1,13 @@
 # Using character `|` for _hiding_ emoticons makes them look like if they are peeping from behind the wall hiding from somebody.
 ```
-- ┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴
 - |･д･)ﾉ
 - |ω･)ﾉ
 - |･ω･)
+- ┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴
 ```
 1. (^◕ᴥ◕^)
 2. (^=◕ᴥ◕=^)
->3. ฅ(^=◕ᴥ◕=^)ฅ
+3. >ฅ(^=◕ᴥ◕=^)ฅ
 
 ---
 > **Cat GPT**
