@@ -10,7 +10,7 @@
 3. ฅ(^=◕ᴥ◕=^)ฅ
 
 ---
-## Some links:
+## More cats:
 **Cat GPT**
 [Link](https://cat-gpt.com/)
 
