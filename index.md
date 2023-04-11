@@ -14,4 +14,4 @@
 **Cat GPT**
 [Link](https://cat-gpt.com/)
 
-![cat](https://user-images.githubusercontent.com/130017007/231061811-f72c2838-c8e5-4c4a-9470-bb43e4214da8.png)
+![potato](https://user-images.githubusercontent.com/130017007/231063974-72e187b7-8ce6-4d47-9f1a-749e7e24cdd6.JPG)
