@@ -10,11 +10,12 @@
 3. ฅ(^=◕ᴥ◕=^)ฅ
 
 ---
-> **Cat GPT**
+## Some links:
+**Cat GPT**
 [Link][1]
 ⋮
 [1]: [http://b.org](https://cat-gpt.com)
 
-![Image][1]
+![Image][2]
 ⋮
-[1]: http://url/b.jpg
+[2]: http://url/b.jpg
