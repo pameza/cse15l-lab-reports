@@ -12,10 +12,8 @@
 ---
 ## Some links:
 **Cat GPT**
-[Link][1]
-⋮
-[1]: [http://b.org](https://cat-gpt.com)
+[Link](https://cat-gpt.com/)
 
 ![Image][2]
 ⋮
-[2]: http://url/b.jpg
+[2]: [http://url/b.jpg](https://pngimg.com/image/50485)
