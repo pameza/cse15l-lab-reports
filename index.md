@@ -15,7 +15,6 @@
 ⋮
 [1]: [http://b.org](https://cat-gpt.com)
 
-## 
 ![Image][1]
 ⋮
 [1]: http://url/b.jpg
