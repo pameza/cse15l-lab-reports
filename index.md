@@ -1,7 +1,7 @@
 # Week 1 lab blog :)
 During the first week's lab we were introduced to remote access through VS Code. 
 ## Download VS Code
-Initially, we were taught to download VS Code and then gather our log-in information. To download VS Code, we accessed the [Link](https://code.visualstudio.com/docs/setup/setup-overview) to download the installer that was appropriate for our operating system and followed the instructions to download the program. 
+Initially, we were taught to download VS Code and then gather our log-in information. To download VS Code, we accessed the [Link](https://code.visualstudio.com/docs/setup/setup-overview) to download the installer that was appropriate for our operating system and followed the instructions to download the program. The instructions for download were very similar to any other program and easy to follow. In my case, I selected macOS and you will be able to see how it runs on Mac in the pictures included.
 
 <img width="768" alt="Screen Shot 2023-04-10 at 10 46 39 PM" src="https://user-images.githubusercontent.com/130017007/231067657-51a29287-eb0c-4133-bf66-1fd35a92d02a.png">
 
