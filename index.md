@@ -16,8 +16,6 @@ Now that VS Code is running, we are able to run some commands such as the follow
 - `cat ~/documents/hello.txt`
 > `cat` is short for concatenate. Its fuction is to print the contents of a file(or multiple files) to the terminal.
 
-<img width="929" alt="Screen Shot 2023-04-10 at 11 15 16 PM" src="https://user-images.githubusercontent.com/130017007/231072308-1889af22-78f0-4188-8c11-554352719485.png">
-
 this commands ran on my computer and generated some lines that referred to my current directory and the folders containing it. 
 <img width="600" alt="Screen Shot 2023-04-24 at 8 49 07 PM" src="https://user-images.githubusercontent.com/130017007/234170423-9904cb40-b31f-4845-a311-953bb8181128.png">
 
