@@ -26,7 +26,6 @@ In order to run these commands on the server, I had to follow several steps to f
 > This command creates a copy of the specific path given and places it in the given location. In this case, it grabs `hello.txt` and places it in the user's home directory in the server.
 <img width="1085" alt="Screen Shot 2023-04-24 at 8 41 03 PM" src="https://user-images.githubusercontent.com/130017007/234170446-21cfd689-e2e8-4b18-87d2-02e6dbadc99a.png">
 
-<img width="814" alt="Screen Shot 2023-04-10 at 11 14 33 PM" src="https://user-images.githubusercontent.com/130017007/231072140-4f46df2e-920c-431b-92a0-02202acfc938.png">
 
 # Using character `|` for _hiding_ emoticons makes them look like if they are peeping from behind the wall hiding from somebody.
 ```
