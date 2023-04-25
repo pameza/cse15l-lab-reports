@@ -27,6 +27,7 @@ In order to run these commands on the server, I had to follow several steps to f
 > This command creates a copy of the specific path given and places it in the given location. In this case, it grabs `hello.txt` and places it in the user's home directory in the server.
 
 Here is an example:
+
 <img width="405" alt="Screen Shot 2023-04-24 at 9 17 21 PM" src="https://user-images.githubusercontent.com/130017007/234173400-137f2f65-b1ef-4f37-b826-84fb9ecace94.png">
 
 
