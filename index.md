@@ -25,6 +25,7 @@ In order to run these commands on the server, I had to follow several steps to f
 - `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 > This command creates a copy of the specific path given and places it in the given location. In this case, it grabs `hello.txt` and places it in the user's home directory in the server.
 
+Here is an example:
 <img width="1085" alt="Screen Shot 2023-04-24 at 8 41 03 PM" src="https://user-images.githubusercontent.com/130017007/234170446-21cfd689-e2e8-4b18-87d2-02e6dbadc99a.png">
 
 
