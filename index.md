@@ -1,57 +1,59 @@
-# Week 1 lab blog :)
-During the first week's lab we were introduced to remote access through VS Code. 
-## Download VS Code
-Initially, we were taught to download VS Code and then gather our log-in information. To download VS Code, we accessed the [Link](https://code.visualstudio.com/docs/setup/setup-overview) to download the installer that was appropriate for our operating system and followed the instructions to download the program. The instructions for download were very similar to any other program and easy to follow. In my case, I selected macOS and you will be able to see how it runs on Mac in the pictures included.
+#Lab 3
 
-<img width="768" alt="Screen Shot 2023-04-10 at 10 46 39 PM" src="https://user-images.githubusercontent.com/130017007/231067657-51a29287-eb0c-4133-bf66-1fd35a92d02a.png">
+## Part 1
+For the portion that I wrote, I used the methods `getPath` and `equals` to check if the url gives the instruction to add text. I also used `split` to separate 
+what comes after the equals sign. This seems to only work for `strings`.
 
-## Run commands locally
-Now that VS Code is running, we are able to run some commands such as the following:
-- `cd ~` 
-- `cd`
-> `cd` stands for "Change Directory", changing the current working directory to whatever follows `cd`. This can be checked by running `pwd`. When`~` is added, it refers to the home directory.
-- `ls -lat`
-- `ls -a`
-> `ls` is referred to as "list" since it returns a list of files and directories contained in your current directory.
-- `cat ~/documents/hello.txt`
-> `cat` is short for concatenate. Its function is to print the contents of a file(or multiple files) to the terminal.
+<img width="490" alt="Screen Shot 2023-04-24 at 10 56 38 PM" src="https://user-images.githubusercontent.com/130017007/234187027-4a5194de-a5af-464b-aa72-fdefd6f04491.png">
 
-this commands ran on my computer and generated some lines that referred to my current directory and the folders containing it. 
-<img width="600" alt="Screen Shot 2023-04-24 at 8 49 07 PM" src="https://user-images.githubusercontent.com/130017007/234170423-9904cb40-b31f-4845-a311-953bb8181128.png">
+>public class ArrayExamples{
+> static void reverseInPlace(int[] arr){
+>   for (int i = 0; i< arr.length; i += 1) {
+>     arr[i] = arr[arr.length; i += 1] {
+>   }
+>}
+>static int[] reversed(int[] arr) {
+> int[] newArray = new int[arr.length];
+> for (int i = 0; i < arr.length; i += 1)
+>   newArray[i] = arr[arr.length - i - 1];
+>   }
+>   return newArray;
+>}
 
-
-## Run commands using the server
-<img width="1085" alt="Screen Shot 2023-04-24 at 8 41 03 PM" src="https://user-images.githubusercontent.com/130017007/234170446-21cfd689-e2e8-4b18-87d2-02e6dbadc99a.png">
-In order to run these commands on the server, I had to follow several steps to find my log in information. 
-First, I found my username by following the instructions in this [Link](https://sdacs.ucsd.edu/~icc/index.php) and plugging in said username in the blanks of this `ssh _____@ieng6.ucsd.edu` inside of the terminal. 
-> To access the terminal, click Terminal - New Terminal in the top bar. 
-I used the password reset tool to get a new password for this assignment and waited a little over 30 minutes to continue. 
-After this, I was asked if I wanted to continue and I typed "yes". 
-Then, I was asked for my password and upon writing my password, I was able to access the remote server where I could once again type the commands mentioned above, yielding a different result this time. Here is a new one you can try:
-- `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-> This command creates a copy of the specific path given and places it in the given location. In this case, it grabs `hello.txt` and places it in the user's home directory in the server.
-
-Here is an example:
-
-<img width="405" alt="Screen Shot 2023-04-24 at 9 17 21 PM" src="https://user-images.githubusercontent.com/130017007/234173400-137f2f65-b1ef-4f37-b826-84fb9ecace94.png">
-
-
-# Using character `|` for _hiding_ emoticons makes them look like if they are peeping from behind the wall hiding from somebody.
+## Part 2
+Failure inducing code:
 ```
-- |･д･)ﾉ
-- |ω･)ﾉ
-- |･ω･)
-- ┬┴┬┴┤( ͡° ͜ʖ├┬┴┬┴
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
 ```
-1. (^◕ᴥ◕^)
-2. (^=◕ᴥ◕=^)
-3. ฅ(^=◕ᴥ◕=^)ฅ
+Input and output:
 
----
-## More cats:
-**Cat GPT**
+<img width="764" alt="Screen Shot 2023-04-24 at 11 01 29 PM" src="https://user-images.githubusercontent.com/130017007/234188393-537ef78d-1635-44e8-8509-4a43d58ba772.png">
 
-![image](https://user-images.githubusercontent.com/130017007/234173828-fbaefe8b-5023-47fb-92f7-285b843084ef.png)
+We can observe that by running 3 tests, one of them failed when we expected 3 but it returned 0 instead. This is because one of the nnumbers was duplicated instead of reversed 
+which yields a symptom. An empty array `{ }` and an array with only one input also passed `{1}`, however `{3,0,3}` did not.
 
-[Link](https://cat-gpt.com/)
 
+>public class ArrayExamples{
+>static void main reverseInPlace(int[] arr){
+> for(int i=0; i < arr.length; i+=1){
+>     arr[i] = arr[arr.length - i - 1];
+>   }
+>}
+>
+>static int[] reversed(int[] arr){
+> int[] newArray = new int[arr.length];
+> for(int i=0; i < arr.length; i+= 1){
+> newArray[i] = arr[arr.length - i - 1];
+> }
+> return newArray;
+> }
+
+The problem was that the numbers that were being stored were being stored in the wrong array and the wrong array was being returned. The symptom was that instead of reversing the items in place, the item in the second spot was repeated over the rest of the array. This was because the program was attempting to rewrite an array at the same time that it was referencing it. To fix this problem, it is important to create a new temporary array that we can populate with the contents of the the reference array. If we must return the original array, we can repopulate the original array with the items inside the temporary array.
+
+## Part 3
+In the last 2 weeks, I learned how to start using localhost as well as modifying it to run different programs. I installed Github Desktop as well as JUnit, running it for the first time.
+I learned how to commit and push programs in GitHub Desktop as well as other simpler things such as forking repositories. I learned the difference between symptoms and bugs as well as a few new commands.
