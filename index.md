@@ -4,8 +4,11 @@ For reference, the working directory that was used during these examples was `Us
 
 
 📂`docsearch`
+
    📂`technical`
+   
       📁 `biomed`
+      
        📁`plos`
 
 
