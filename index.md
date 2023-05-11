@@ -7,7 +7,7 @@ For reference, the working directory that was used during these examples was `Us
 
    📂`technical`
    
-      📁 `biomed`
+       📁`biomed`
       
        📁`plos`
 ```
