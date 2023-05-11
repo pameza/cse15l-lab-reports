@@ -1,4 +1,10 @@
 #Lab 3
+In this lab, I explored different options that can be used with `grep` that I think could be very useful in the future. Grep is a very useful tool that scans files in a given directory. It matches the contents of the file to a given string and returns the file names as well as the lines in which the matching string appears. 
+For reference, the working directory that was used during these examples was `Users/Paola/Documents/Github/docsearch/`, here is what it looks like:
+>`docsearch`
+>   `technical`
+>       `biomed`
+>       `plos`
 
 ## Examples of `grep -r`
 
@@ -181,4 +187,8 @@ Here is what ``` $ grep "hypoxia" ./technical/biomed/* ``` returned, for compari
 ./technical/biomed/rr74.txt:        lung following hypoxia in mice is presently unknown.
 ./technical/biomed/rr74.txt:        upregulation in the murine lung with severe hypoxia-induced
 ./technical/biomed/rr74.txt:        hypoxia may lead to more severe pulmonary hypertension than
-./technical/biomed/rr74.txt:        that observed in mature mice exposed to hypoxia, and this```
+./technical/biomed/rr74.txt:        that observed in mature mice exposed to hypoxia, and this
+```
+
+
+_For more information follow the instructions in the grep manual by typing `man grep` into the terminal._
