@@ -11,7 +11,7 @@ For reference, the working directory that was used during these examples was `Us
       
        📁`plos`
 ```
-
+Where both `biomed` and `plos` contain multiple text files.
 
 ## Examples of `grep -r`
 
