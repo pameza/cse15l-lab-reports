@@ -2,13 +2,13 @@
 In this lab, I explored different options that can be used with `grep` that I think could be very useful in the future. Grep is a very useful tool that scans files in a given directory. It matches the contents of the file to a given string and returns the file names as well as the lines in which the matching string appears. 
 For reference, the working directory that was used during these examples was `Users/Paola/Documents/Github/docsearch/`, here is what it looks like:
 
-```
-`docsearch`
-   `technical`
-       `biomed`
-       `plos`
-```
-:octocat:
+
+📂`docsearch`
+   📂`technical`
+      📁 `biomed`
+       📁`plos`
+
+
 
 ## Examples of `grep -r`
 
