@@ -7,7 +7,8 @@
 [^1]: This student is having issues running their Grading Script from week 6.
 
 ---
-![IMG_7570A1D51575-1](https://github.com/pameza/cse15l-lab-reports/assets/130017007/013d50f1-a7e8-41f8-b2a7-6cae2a3393de)
+
+<img width="829" alt="Screen Shot 2023-06-05 at 9 07 49 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/49d29c84-679f-409e-8ea3-a8a0448ffc3b">
 
 <img width="700" alt="Screen Shot 2023-06-05 at 9 00 21 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/5d807245-bee2-4b0a-a29b-15e0c55f4c98">
 
