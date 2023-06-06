@@ -13,10 +13,11 @@
 <img width="700" alt="Screen Shot 2023-06-05 at 9 00 21 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/5d807245-bee2-4b0a-a29b-15e0c55f4c98">
 
 ---
-<img width="250" alt="Screen Shot 2023-06-05 at 9 03 17 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/29986b1c-5718-4594-8995-fd2c3be67cce">
+<img width="350" alt="Screen Shot 2023-06-05 at 9 03 17 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/29986b1c-5718-4594-8995-fd2c3be67cce">
 
 <img width="634" alt="Screen Shot 2023-06-05 at 9 03 53 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/fc7ed7de-1da9-4064-86f3-abbe105a1cd6">
 ---
+
 ### Information
 <img width="183" alt="Screen Shot 2023-06-05 at 9 22 23 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/abd57614-3f39-4f39-b7eb-17f44473b70c">
 [^1]: The file & directory structure.
