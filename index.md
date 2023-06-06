@@ -295,6 +295,7 @@ class ListExamples {
 
 ---
 <img width="533" alt="Screen Shot 2023-06-05 at 9 31 17 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/430f6cd9-0ed1-46fd-bae7-cb3ca54d6315">
+
 > Faulty command line. Here, the issue was that the student was attempting to run this command locally without providing an input for the command-line argument required to fulfill `$1` written in `grade.sh`. Once the student gave the command an input, `grade.sh` was able to run its tests. To be more specific, the `bash grade.sh` command was missing the student submission repository URL after it.
 
 ---
