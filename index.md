@@ -20,7 +20,9 @@
 ### Information
 <img width="183" alt="Screen Shot 2023-06-05 at 9 22 23 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/abd57614-3f39-4f39-b7eb-17f44473b70c">
 [^1]: The file & directory structure.
-`CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
+
+```
+CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
 rm -rf grading-area
@@ -30,9 +32,6 @@ mkdir grading-area
 git clone $1 student-submission
 echo 'Finished cloning'
 
-
-# Draw a picture/take notes on the directory structure that's set up after
-# getting to this point
 
 if [[ -f .student-submission/ListExamples.java ]]
 then
@@ -47,11 +46,12 @@ cp -r student-submission grading area
 # Then, add here code to compile and run, and do any post-processing of the
 # tests
 
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar grading-area/*.java`
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar grading-area/*.java
+```
 [^1]: grade.sh contents.
 
 
-`
+```
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -141,11 +141,11 @@ class ExecExamples {
   }
 }
 
-`
+```
 [^1]: GradeServer.java contents.
 
 
-`
+```
 // A simple web server using Java's built-in HttpServer
 
 // Examples from https://dzone.com/articles/simple-http-server-in-java were useful references
@@ -199,11 +199,11 @@ public class Server {
         System.out.println("Server Started! Visit http://localhost:" + port + " to visit.");
     }
 }
-`
+```
 [^1]: Server.java contents.
 
 
-`
+```
 import static org.junit.Assert.*;
 import org.junit.*;
 import java.util.Arrays;
@@ -226,11 +226,11 @@ public class TestListExamples {
   }
 }
 
-`
+```
 [^1]: TestListExamples.java contents.
 
 
-`
+```
 import java.util.ArrayList;
 import java.util.List;
 
@@ -280,7 +280,7 @@ class ListExamples {
 
 
 }
-`
+```
 [^1]: [TestListExamples.java](https://github.com/pameza/list-methods-corrected.git) contents (student submission example).
 
 <img width="533" alt="Screen Shot 2023-06-05 at 9 31 17 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/430f6cd9-0ed1-46fd-bae7-cb3ca54d6315">
