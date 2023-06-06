@@ -4,6 +4,7 @@
 <img width="800" alt="Screen Shot 2023-06-05 at 8 40 34 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/c8959e87-49e7-4670-98b4-e7123b171e09">
 
 <img width="670" alt="Screen Shot 2023-06-05 at 8 37 08 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/b1c172d4-5b3e-4c21-9476-1517d4ce1023">
+
 > This student is having issues running their Grading Script from week 6.
 
 ---
