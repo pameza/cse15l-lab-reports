@@ -22,6 +22,7 @@
 
 ### Information
 <img width="183" alt="Screen Shot 2023-06-05 at 9 22 23 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/abd57614-3f39-4f39-b7eb-17f44473b70c">
+
 > The file & directory structure.
 
 ```
