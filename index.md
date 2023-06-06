@@ -4,7 +4,7 @@
 <img width="800" alt="Screen Shot 2023-06-05 at 8 40 34 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/c8959e87-49e7-4670-98b4-e7123b171e09">
 
 <img width="670" alt="Screen Shot 2023-06-05 at 8 37 08 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/b1c172d4-5b3e-4c21-9476-1517d4ce1023">
-[^1]: This student is having issues running their Grading Script from week 6.
+> This student is having issues running their Grading Script from week 6.
 
 ---
 
@@ -13,14 +13,16 @@
 <img width="700" alt="Screen Shot 2023-06-05 at 9 00 21 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/5d807245-bee2-4b0a-a29b-15e0c55f4c98">
 
 ---
+
 <img width="350" alt="Screen Shot 2023-06-05 at 9 03 17 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/29986b1c-5718-4594-8995-fd2c3be67cce">
 
-<img width="634" alt="Screen Shot 2023-06-05 at 9 03 53 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/fc7ed7de-1da9-4064-86f3-abbe105a1cd6">
+<img width="734" alt="Screen Shot 2023-06-05 at 9 03 53 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/fc7ed7de-1da9-4064-86f3-abbe105a1cd6">
+
 ---
 
 ### Information
 <img width="183" alt="Screen Shot 2023-06-05 at 9 22 23 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/abd57614-3f39-4f39-b7eb-17f44473b70c">
-[^1]: The file & directory structure.
+> The file & directory structure.
 
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -49,7 +51,7 @@ cp -r student-submission grading area
 
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar grading-area/*.java
 ```
-[^1]: grade.sh contents.
+> grade.sh contents.
 
 
 ```
@@ -143,7 +145,7 @@ class ExecExamples {
 }
 
 ```
-[^1]: GradeServer.java contents.
+> GradeServer.java contents.
 
 
 ```
@@ -201,7 +203,7 @@ public class Server {
     }
 }
 ```
-[^1]: Server.java contents.
+> Server.java contents.
 
 
 ```
@@ -228,7 +230,7 @@ public class TestListExamples {
 }
 
 ```
-[^1]: TestListExamples.java contents.
+> TestListExamples.java contents.
 
 
 ```
@@ -282,7 +284,7 @@ class ListExamples {
 
 }
 ```
-[^1]: [TestListExamples.java](https://github.com/pameza/list-methods-corrected.git) contents (student submission example).
+> [TestListExamples.java](https://github.com/pameza/list-methods-corrected.git) contents (student submission example).
 
 <img width="533" alt="Screen Shot 2023-06-05 at 9 31 17 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/430f6cd9-0ed1-46fd-bae7-cb3ca54d6315">
 [^1]: Faulty command line. Here, the issue was that the student was attempting to run this command locally without providing an input for the command-line argument required to fulfill `$1` written in `grade.sh`. Once the student gave the command an input, `grade.sh` was able to run its tests. To be more specific, the `bash grade.sh` command was missing the student submission repository URL after it.
