@@ -8,7 +8,7 @@
 
 ---
 ![IMG_7570A1D51575-1](https://github.com/pameza/cse15l-lab-reports/assets/130017007/013d50f1-a7e8-41f8-b2a7-6cae2a3393de)
-<img width="717" alt="Screen Shot 2023-06-05 at 9 00 21 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/5d807245-bee2-4b0a-a29b-15e0c55f4c98">
+<img width="700" alt="Screen Shot 2023-06-05 at 9 00 21 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/5d807245-bee2-4b0a-a29b-15e0c55f4c98">
 
 
 <img width="159" alt="Screen Shot 2023-06-05 at 9 03 17 PM" src="https://github.com/pameza/cse15l-lab-reports/assets/130017007/29986b1c-5718-4594-8995-fd2c3be67cce">
